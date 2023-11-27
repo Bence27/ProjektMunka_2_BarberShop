@@ -1,0 +1,148 @@
+.maindiv
+{
+    margin-top: 0.5rem !important;
+    width: 80% !important;
+}
+
+.kor
+{
+    height: 70px;
+    width: 70px;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 1px;
+    padding: 13px;
+    margin-left: 5px;
+  
+}
+
+.kor:hover
+{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.idopont
+{
+    border-color: rgb(166, 166, 166);
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size:18px;
+    padding: 1%;
+}
+
+.radiolista
+{
+
+    margin-bottom: 5px !important;
+    font-size:16px;
+    padding: 1%;
+}
+
+.nyil
+{
+    font-size:60px !important;
+    margin-top: -1.5rem !important;
+}
+
+.row
+{
+    --bs-gutter-x: 0rem;
+}
+
+.idopont:hover
+{
+    cursor:pointer;
+    background-color: bisque;
+}
+
+.datum_card
+{
+    border: 0px !important;
+}
+
+.modal-footer
+{
+    justify-content: center !important;
+}
+
+.foglalas2
+{
+    color: grey;
+    font-size: 1.2rem;
+    border: 1px grey solid;
+}
+
+.foglalas2:hover
+{
+    color: rgb(234, 151, 123);
+    font-size: 1.2rem;
+    border: 1px darksalmon solid;
+}
+
+.teloelo
+{
+    display: block;
+}
+
+.teloelrejt
+{
+    display: none;
+}
+
+.szoveg
+{
+    font-size: 1rem;
+}
+
+.folytatasbtn
+{
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:600px) and (min-width:481px)
+{
+    .kor
+    {
+        height: 60px;
+        width: 60px;
+        font-size:12px;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        border-color: black;
+        border-style: solid;
+        border-radius: 50%;
+        border-width: 1px;
+        padding: 13px;
+        margin-left: 5px;
+    }
+
+    .nyil
+    {
+        font-size:50px !important;
+        margin-top: -1rem !important;
+    }
+
+    .radiolista
+    {
+
+        margin-bottom: 5px !important;
+        font-size:14px;
+        padding: 1%;
+    }
+
+    .maindiv
+    {
+        margin-top: 0.5rem !important;
+        width: 100% !important;
+    }
+}

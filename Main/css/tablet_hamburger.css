@@ -1,0 +1,829 @@
+body
+{
+    background-color: white;
+}
+.logokep
+{
+    width: 100px !important;
+}
+/*NAV*/
+.navbar
+{
+    background-color: black;
+    z-index: 9999;
+}
+
+.nav-link
+{
+    color: bisque !important;
+    font-weight: bold;
+    font-size: 1.1rem !important;
+}
+
+.nav-link:hover
+{
+    color:darksalmon !important;
+}
+/*NAV*/
+
+
+/*Főképernyő tartalomrész*/
+.hattersz
+{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+}
+
+.hatter
+{
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+
+}
+
+.hatterkep
+{
+    width: 100%;
+}
+
+h1
+{
+    color: bisque;
+    font-size: 2rem !important;
+}
+
+h3
+{
+    font-size: 1.1rem !important;
+    color: bisque;
+}
+
+.foglalas
+{
+    color: bisque;
+    font-size: 0.9rem;
+    border: 1px bisque solid;
+}
+
+.foglalas:hover
+{
+    color: darksalmon;
+    font-size: 1rem;
+    border: 1px darksalmon solid;
+}
+/*Főképernyő tartalomrész*/
+
+
+/*Rólunk tartalomrész*/
+.rolunkep
+{
+    width: 75% !important;
+}
+
+.elsotartalom
+{
+    background-color: white;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.elsosz
+{
+ font-size: 0.65rem !important;
+}
+
+.elsotartcim
+{
+    color: black;
+}
+
+.justified-text 
+{
+    text-align: justify;
+}
+/*Rólunk tartalomrész*/
+
+
+/*Vélemény tartalomrész*/
+.masodiktartalom
+{
+    background-image: url("../img/hatter2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
+
+.velemeny
+{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.velemenysz
+{
+    padding-top: 15%;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+}
+
+.velemenysz2
+{
+    font-size: 1rem;
+    color: bisque;
+    font-weight: 500;
+}
+/*Vélemény tartalomrész*/
+
+
+/*Szolgáltatások tartalomrész*/
+.szolgaltatasoksor
+{
+    width:85% !important;
+}
+.harmadiktartalom
+{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.card
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 15rem !important;
+}
+
+.card-text
+{
+    font-size: 0.75rem !important;
+}
+
+.card-img-top
+{
+    width: 30% !important;
+}
+/*Szolgáltatások tartalomrész*/
+
+
+/*Nyitvatartás tartalomrész*/
+.negyediktartalom
+{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.szineskartya:hover
+{
+    background-color: rgba(238, 238, 238, 0.42);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.nyitvatartassor
+{
+    width: 70% !important;
+}
+.nyitvatartascol
+{
+    margin-right: 0rem !important;
+}
+.nyitvatartascard
+{
+ height: 8rem !important;
+}
+
+.elsocol
+{
+ margin-left: 0 !important;
+}
+
+.otodiktartalom
+{
+    background-color: rgb(44, 44, 44);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 80%;
+}
+
+.otodikcim
+{
+    color: bisque;
+    font-size: 1.8rem;
+    margin-left: 2rem !important;
+}
+
+.foglalas2
+{
+    color: bisque;
+    font-size: 1.4rem;
+    border: 1px bisque solid;
+}
+
+.idopont
+{
+    font-size: 0.8rem !important;
+}
+
+.foglalas2:hover
+{
+    color: darksalmon;
+    font-size: 1.5rem;
+    border: 1px darksalmon solid;
+}
+/*Nyitvatartás tartalomrész*/
+
+
+/*Minden korosztály tartalomrész*/
+.hatodiktartalom
+{
+    background-image: url("../img/hatter3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 350px;
+}
+
+.velemeny2
+{
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100%;
+}
+
+.velemenysz3
+{
+    padding-top: 18%;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+}
+/*Minden korosztály tartalomrész*/
+
+
+/*Árlista tartalomrész*/
+.hetediktartalom
+{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.table
+{
+    width:80%;
+
+}
+
+.fs-5
+{
+    font-size: 1rem !important;
+}
+
+.table>:not(caption)>*>* 
+{
+    padding-left: 0 !important;
+    border-bottom-width: 0px !important;
+}
+
+.betol
+{
+    margin-left: 3rem;
+}
+.kihuz
+{
+    margin-right: 3rem;
+}
+/*Árlista tartalomrész*/
+
+
+/*Elérhetőségek tartalomrész*/
+.elerhetosegeksor
+{
+    width: 100% !important;
+}
+
+.elerhetoseg
+{
+    font-size: 0.8rem !important;
+}
+/*Elérhetőségek tartalomrész*/
+
+
+/*térkép tartalomrész*/
+.map
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.mapouter
+{
+    position:relative;
+    text-align:right;
+}
+
+.gmap_iframe 
+{
+    width:100%!important;
+    height:500px!important;
+}
+/*térkép tartalomrész*/
+
+
+/*Footer tartalomrész*/
+.footer
+{
+    background-color: rgb(51, 51, 51);
+    height: 120px;
+    color: lightgray;
+    font-size: 0.7rem !important;
+}
+/*Footer tartalomrész*/
+
+
+@media screen and (min-width:768px) and (max-width:820px) 
+{
+    .hatterkep
+    {
+        width: 100%;
+        margin-top: 2%;
+    }
+    .elsotartcim
+    {
+        font-size: 1.2rem !important;
+    }
+    /*Vélemény tartalomrész*/
+    .masodiktartalom
+    {
+        background-image: url("../img/hatter2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 370px;
+    }
+    /*Vélemény tartalomrész*/
+
+
+    /*Szolgáltatások tartalomrész*/
+    .szolgaltatasoksor
+    {
+        width:80% !important;
+    }
+
+    .card
+    {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        height: 15rem !important;
+        width: 16rem !important;
+    }
+    /*Szolgáltatások tartalomrész*/
+
+
+    /*Nyitvatartás tartalomrész*/
+    .nyitvatartassor
+    {
+        width: 80% !important;
+    }
+    .nyitvatartascol
+    {
+        margin-right: 0rem !important;
+    }
+    .nyitvatartascard
+    {
+        height: 8rem !important;
+        width: 8rem !important;
+    }
+    /*Nyitvatartás tartalomrész*/
+
+
+    /*Minden korosztály tartalomrész*/
+    .hatodiktartalom
+    {
+        background-image: url("../img/hatter3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 300px;
+    }
+    /*Minden korosztály tartalomrész*/
+
+
+    /*Elérhetőségek tartalomrész*/
+    .footerkep
+    {
+        width: 50px !important;
+    }
+
+    .elerhetoseg
+    {
+        font-size: 0.75rem !important;
+    }
+    /*Elérhetőségek tartalomrész*/
+}
+
+
+@media screen and (min-width:600px) and (max-width:767px) 
+{
+    /*Főképernyő tartalomrész*/
+    .hatterkep
+    {
+        width: 100%;
+        margin-top: 6%;
+    }
+    .elsotartcim
+    {
+        font-size: 1.2rem !important;
+    }
+    h1
+    {
+        color: bisque;
+        font-size: 1.3rem !important;
+    }
+
+    h3
+    {
+        font-size: 0.8rem !important;
+        color: bisque;
+    }
+
+    .foglalas
+    {
+        color: bisque;
+        font-size: 0.8rem;
+        border: 1px bisque solid;
+        margin-top: -2rem !important;
+    }
+
+    .foglalas:hover
+    {
+        color: darksalmon;
+        font-size: 0.85rem;
+        border: 1px darksalmon solid;
+    }
+    /*Főképernyő tartalomrész*/
+
+
+    /*Rólunk tartalomrész*/
+    .rolunkep
+    {
+        width: 40% !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .elsotartalom
+    {
+        text-align: center !important;
+        background-color: white;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .elsosz
+    {
+        font-size: 0.8rem !important;
+    }
+
+    .justified-text 
+    {
+        text-align: center;
+    }
+    /*Rólunk tartalomrész*/
+
+
+    /*Vélemény tartalomrész*/
+    .masodiktartalom
+    {
+        background-image: url("../img/hatter2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 300px;
+    }
+    /*Vélemény tartalomrész*/
+
+
+    /*Szolgáltatások tartalomrész*/
+    .szolgaltatasoksor
+    {
+        width:80% !important;
+    }
+
+    .card
+    {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        height: 15rem !important;
+        width: 16rem !important;
+    }
+    /*Szolgáltatások tartalomrész*/
+
+
+    /*Nyitvatartás tartalomrész*/
+    .nyitvatartassor
+    {
+        width: 80% !important;
+    }
+
+    .nyitvatartascard
+    {
+        height: 8rem !important;
+        width: 8rem !important;
+    }
+    
+    .otodiktartalom
+    {
+        background-color: rgb(44, 44, 44);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+    
+    .otodikcim
+    {
+        color: bisque;
+        font-size: 1.4rem;
+        margin-left: 2rem !important;
+    }
+    
+    .foglalas2
+    {
+        color: bisque;
+        font-size: 1.1rem;
+        border: 1px bisque solid;
+    }
+    
+    .foglalas2:hover
+    {
+        color: darksalmon;
+        font-size: 1.1rem;
+        border: 1px darksalmon solid;
+    }
+    /*Nyitvatartás tartalomrész*/
+
+
+    /*Minden korosztály tartalomrész*/
+    .hatodiktartalom
+    {
+        background-image: url("../img/hatter3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 230px;
+    }
+
+    .velemenysz3
+    {
+        padding-top: 15%;
+        font-weight: 500;
+        font-size: 1rem !important;
+    }
+    /*Minden korosztály tartalomrész*/
+
+
+    /*Árlista tartalomrész*/
+    .betol
+    {
+        margin-left: 1rem;
+    }
+    .kihuz
+    {
+        margin-right: 1rem;
+    }
+    /*Árlista tartalomrész*/
+
+
+    /*Elérhetőségek tartalomrész*/
+    .footerkep
+    {
+        width: 60px !important;
+        margin-bottom: -1rem !important;
+    }
+
+    .elerhetoseg
+    {
+        font-size: 0.8rem !important;
+        margin-bottom: 2.5rem !important;
+    }
+    /*Elérhetőségek tartalomrész*/
+}
+
+
+@media screen and (min-width:481px) and (max-width:599px)
+{
+    /*Főképernyő tartalomrész*/
+    .hatterkep
+    {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .elsotartcim
+    {
+        font-size: 1.2rem !important;
+    }
+    h1
+    {
+        color: bisque;
+        font-size: 1.3rem !important;
+    }
+
+    h3
+    {
+        font-size: 0.8rem !important;
+        color: bisque;
+        margin-top: -1rem !important;
+    }
+
+    .foglalas
+    {
+        color: bisque;
+        font-size: 0.8rem;
+        border: 1px bisque solid;
+        margin-top: -3.5rem !important;
+    }
+
+    .foglalas:hover
+    {
+        color: darksalmon;
+        font-size: 0.9rem;
+        border: 1px darksalmon solid;
+    }
+    /*Főképernyő tartalomrész*/
+
+
+    /*Rólunk tartalomrész*/
+    .rolunkep
+    {
+        width: 40% !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .elsotartalom
+    {
+        text-align: center !important;
+        background-color: white;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .elsosz
+    {
+        font-size: 0.8rem !important;
+    }
+
+    .justified-text 
+    {
+        text-align: center;
+    }
+    /*Rólunk tartalomrész*/
+
+
+    /*Vélemény tartalomrész*/
+    .masodiktartalom
+    {
+        background-image: url("../img/hatter2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 240px;
+    }
+
+    .velemenysz
+    {
+        padding-top: 15%;
+        font-weight: 500;
+        font-size: 1rem !important;
+    }
+
+    .velemenysz2
+    {
+        font-size: 0.8rem;
+        color: bisque;
+        font-weight: 500;
+    }
+    /*Vélemény tartalomrész*/
+
+
+    /*Szolgáltatások tartalomrész*/
+    .szolgaltatasoksor
+    {
+        width:80% !important;
+    }
+
+    .card
+    {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        height: 15rem !important;
+        width: 16rem !important;
+    }
+    /*Szolgáltatások tartalomrész*/
+
+
+    /*Nyitvatartás tartalomrész*/
+    .nyitvatartassor
+    {
+        width: 100% !important;
+    }
+
+    .nyitvatartascol
+    {
+        margin-right: 0rem !important;
+    }
+
+    .nyitvatartascard
+    {
+        height: 8rem !important;
+        width: 8rem !important;
+    }
+    
+    .otodiktartalom
+    {
+        background-color: rgb(44, 44, 44);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+    
+    .otodikcim
+    {
+        color: bisque;
+        font-size: 1.3rem;
+        margin-left: 2rem !important;
+    }
+    
+    .foglalas2
+    {
+        color: bisque;
+        font-size: 1rem;
+        border: 1px bisque solid;
+    }
+    
+    .foglalas2:hover
+    {
+        color: darksalmon;
+        font-size: 1.1rem;
+        border: 1px darksalmon solid;
+    }
+    /*Nyitvatartás tartalomrész*/
+
+
+    /*Minden korosztály tartalomrész*/
+    .hatodiktartalom
+    {
+        background-image: url("../img/hatter3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 180px;
+    }
+
+    .velemenysz3
+    {
+        padding-top: 15%;
+        font-weight: 500;
+        font-size: 1rem !important;
+    }
+    /*Minden korosztály tartalomrész*/
+
+
+    /*Árlista tartalomrész*/
+    .betol
+    {
+        margin-left: 0rem;
+    }
+    .kihuz
+    {
+        margin-right: 0rem;
+    }
+    /*Árlista tartalomrész*/
+
+
+    /*Elérhetőségek tartalomrész*/
+    .footerkep
+    {
+        width: 60px !important;
+        margin-bottom: -1rem !important;
+    }
+
+    .elerhetoseg
+    {
+        font-size: 0.8rem !important;
+        margin-bottom: 2.5rem !important;
+    }
+    /*Elérhetőségek tartalomrész*/
+
+
+    /*térkép tartalomrész*/
+    .gmap_canvas 
+    {
+        width:100%!important;
+    }
+    /*térkép tartalomrész*/
+}
+
+#modalfocim
+{
+    font-size: 1.7rem !important;
+}
+.visszamodalcim
+{
+    font-size: 1rem !important;
+}

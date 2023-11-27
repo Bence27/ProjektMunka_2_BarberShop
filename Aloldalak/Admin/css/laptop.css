@@ -1,0 +1,187 @@
+/*Betűtípusok*/
+@font-face
+{
+    font-family: "montserrat_bold";
+    src: url("../../../Main/betutipusok/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "montserrat_semibold";
+    src: url("../../../Main/betutipusok/montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "montserrat_medium";
+    src: url("../../../Main/betutipusok/montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "montserrat_medium_italic";
+    src: url("../../../Main/betutipusok/montserrat/Montserrat-MediumItalic.ttf") format("truetype");
+}
+/*Betűtípusok*/
+
+body
+{
+    background-color: White;
+    max-width: 100% !important;
+    height: 100vh;
+}
+
+.kozepre
+{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+}
+
+.bejelentkezeslogo
+{
+    margin-top: 22rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.bejelentkezesgomb
+{
+    margin-top: -4rem !important;
+}
+
+.logokep
+{
+    width: 200px !important;
+}
+
+
+/*NAV*/
+.navbar{
+    background-color: grey !important;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav-item{
+    color:white !important;
+    padding-left:4rem !important;
+    
+}
+.nav-link{
+    color:white !important;
+    
+}
+.menu-link{
+    font-family: "montserrat_medium" !important;
+    font-size:25px !important;
+}
+
+a{
+    color:white !important;
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+
+/*NAV*/
+
+#img-preview 
+{
+    display: none;
+    width: 155px;
+    border: 2px dashed #333;  
+    margin-bottom: 20px;
+}
+
+#img-preview img 
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+[type="file"] 
+{
+    height: 0;  
+    width: 0;
+    overflow: hidden;
+}
+
+[type="file"] + label 
+{
+    font-family: sans-serif;
+    background: #f44336;
+    padding: 10px 30px;
+    border: 2px solid #f44336;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+[type="file"] + label:hover 
+{
+    background-color: #fff;
+    color: #f44336;
+}
+  
+.beja
+{
+    color: black !important;
+    text-align: center !important;
+}  
+
+.modal
+{
+    color:black !important;
+}
+
+.modal-title
+{
+    color:black !important;
+}
+
+.modal-open
+{
+    padding-right: 0px !important;
+}
+
+.mentesmodosit:hover
+{
+    background-color: #fff !important;
+    color: #f44336 !important;
+}
+
+.megsegomb:hover
+{
+    color:white !important;
+    background-color: #333 !important;
+}
+
+.megsegomb
+{
+    border: 1px solid #333;
+}
+
+.ujadmingomb
+{
+    border: 1px solid #333;
+}
+
+.ujadmingomb:hover
+{
+    color:white !important;
+    background-color: grey !important;
+}
+
+.tartalom
+{
+    padding-top: 200px;
+    width: 90% !important;
+    padding-bottom: 5rem;
+}
